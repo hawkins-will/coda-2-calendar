@@ -1,0 +1,133 @@
+/* CSS Reset
+   http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* CSS Begins Here */
+
+/* Mobile Styling */
+
+.week {
+    width: 100vw;
+    min-height: 100px;
+    margin-bottom: 50px;
+    /* background: red; */
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.day {
+  min-width: 107px;
+  min-height: 100px;
+  /* background: blue; */
+  text-align: center;
+  padding: 20px;
+}
+
+.activity {
+  margin-top: 10px;
+  border-top: 1px solid grey;
+  padding-top: 10px;
+}
+
+/* Week Headline */
+h2 {
+  text-align: center;
+  font-size: 30px;
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  display: none;
+}
+
+/* Day of the Week */
+h3 {
+  font-size: 20px;
+  font-weight: 800;
+  color: grey;
+}
+
+/* Date */
+h4 {
+  color: grey;
+  margin-bottom: 20px;
+}
+
+/* Exercise Headline */
+h5 {
+  font-size: 18px;
+}
+
+/* Exercise Time */
+h6 {
+  font-style: italic;
+}
+
+
+/* Monitor CSS */
+
+@media screen and (min-width: 735px) {
+
+	body, header, main, section, footer  {
+		max-width: 100000px;
+	}
+
+  .content {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  h2 {
+    display: block;
+  }
+
+}
