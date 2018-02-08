@@ -67,10 +67,7 @@ main {
 }
 
 .hidden, .scrollButton {
-  height: 40px;
   width: 100px;
-  /* background: red; */
-  margin: 5px 50px;
 }
 
 .hidden {
@@ -79,15 +76,11 @@ main {
 
 .scrollButton {
 	height: 35px;
+	margin: 5px 20px;
   border: 1px solid black;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.scrollButton:hover {
-  background: rgba(0,0,0,.2);
-  cursor: pointer;
 }
 
 /* Main Headline */
@@ -182,6 +175,17 @@ h6 {
 
 	.hidden {
 		display: block;
+		height: 40px;
+		margin: 5px 50px;
+	}
+
+	.scrollButton {
+		margin: 5px 50px;
+	}
+
+	.scrollButton:hover {
+	  background: rgba(0,0,0,.2);
+	  cursor: pointer;
 	}
 
   .day {
