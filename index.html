@@ -8,7 +8,11 @@
   </head>
   <body>
     <header>
-      <h1>Hello World</h1>
+      <div class="hidden"></div>
+      <h1>CODA Calendar</h1>
+      <div class="scrollButton">
+        <p onclick="scrollToWeek()">Current Week</p>
+      </div>
     </header>
 
     <main>
@@ -17,258 +21,1054 @@
         <div class="content">
           <div class="day">
             <h3>Monday</h3>
-            <h4>Ferbruary, 19th</h4>
+            <h4>February 19th</h4>
               <div class="activity">
-                <h5>No Class: Presidents' Day</h4>
-                <h6>9:00am - 5:00pm</h5>
+                <h5>No Class: Presidents' Day</h5>
+                <h6>9:00am - 5:00pm</h6>
               </div>
           </div>
           <div class="day">
             <h3>Tuesday</h3>
-            <h4>Ferbruary, 19th</h4>
+            <h4>February 19th</h4>
               <div class="activity">
-                <h5>Morning Exercise</h4>
-                <h6>9:00am - 9:45am</h5>
+                <h5><a href="#">Culture Setting and CODA Schedule</a></h5>
+                <h6>9:00am - 9:45am</h6>
               </div>
               <div class="activity">
-                <h5>Intro to Something</h4>
-                <h6>10:05am - 11:25am</h5>
+                <h5><a href="#">Laptop/Proxy Set-Up</a></h5>
+                <h6>10:00am - 11:30am</h6>
               </div>
               <div class="activity">
-                <h5>Intro to Something</h4>
-                <h6>11:30am - 12:30pm</h5>
+                <h5><a href="#">Developer Foundations and Programming Languages</a></h5>
+                <h6>11:30am - 12:30pm</h6>
               </div>
               <div class="activity">
-                <h5>Lunch</h4>
-                <h6>12:30pm - 1:30pm</h5>
-              </div>
-              <div class="activity">
-                <h5>Intro to Something</h4>
-                <h6>1:30pm - 5:00pm</h5>
+                <h5><a href="#">Developer Foundations and Programming Languages (Continued)</a></h5>
+                <h6>1:30pm - 5:00pm</h6>
               </div>
           </div>
           <div class="day">
             <h3>Wednesday</h3>
-            <h4>Ferbruary, 20th</h4>
+            <h4>February 20th</h4>
               <div class="activity">
-                <h5>Morning Exercise</h4>
-                <h6>9:00am - 9:45am</h5>
+                <h5><a href="#">Morning Exercise</a></h5>
+                <h6>9:00am - 9:45am</h6>
               </div>
               <div class="activity">
-                <h5>Intro to Something</h4>
-                <h6>10:05am - 11:25am</h5>
+                <h5><a href="#">Command Line and Git/GitHub</a></h5>
+                <h6>10:00am - 12:30pm</h6>
               </div>
               <div class="activity">
-                <h5>Intro to Something</h4>
-                <h6>11:30am - 12:30pm</h5>
+                <h5><a href="#">Review in Groups</a></h5>
+                <h6>1:30pm - 3:00pm</h6>
               </div>
               <div class="activity">
-                <h5>Lunch</h4>
-                <h6>12:30pm - 1:30pm</h5>
-              </div>
-              <div class="activity">
-                <h5>Intro to Something</h4>
-                <h6>1:30pm - 3:00pm</h5>
-              </div>
-              <div class="activity">
-                <h5>Intro to Something</h4>
-                <h6>3:00pm - 5:00pm</h5>
+                <h5><a href="#">Git/GitHub Lab</a></h5>
+                <h6>3:00pm - 5:00pm</h6>
               </div>
           </div>
           <div class="day">
             <h3>Thursday</h3>
-            <h4>Ferbruary, 21st</h4>
+            <h4>February 21st</h4>
               <div class="activity">
-                <h5>Morning Exercise</h4>
-                <h6>9:00am - 9:45am</h5>
+                <h5><a href="#">Morning Exercise</a></h5>
+                <h6>9:00am - 9:45am</h6>
               </div>
               <div class="activity">
-                <h5>Intro to Something</h4>
-                <h6>10:05am - 11:25am</h5>
+                <h5><a href="#">HTML</a></h5>
+                <h6>10:00am - 12:30pm</h6>
               </div>
               <div class="activity">
-                <h5>Intro to Something</h4>
-                <h6>11:30am - 12:30pm</h5>
+                <h5><a href="#">Review in Groups</a></h5>
+                <h6>1:30pm - 3:00pm</h6>
               </div>
               <div class="activity">
-                <h5>Lunch</h4>
-                <h6>12:30pm - 1:30pm</h5>
-              </div>
-              <div class="activity">
-                <h5>Intro to Something</h4>
-                <h6>1:30pm - 3:00pm</h5>
-              </div>
-              <div class="activity">
-                <h5>Intro to Something</h4>
-                <h6>3:00pm - 5:00pm</h5>
+                <h5><a href="#">Monument Land Page: Part 1</a></h5>
+                <h6>3:00pm - 5:00pm</h6>
               </div>
           </div>
           <div class="day">
             <h3>Friday</h3>
-            <h4>Ferbruary, 22nd</h4>
+            <h4>February 22nd</h4>
               <div class="activity">
-                <h5>Morning Exercise</h4>
-                <h6>9:00am - 9:45am</h5>
+                <h5>Week 1 Diagnostic</h5>
+                <h6>9:00am - 9:45am</h6>
               </div>
               <div class="activity">
-                <h5>Intro to Something</h4>
-                <h6>10:05am - 11:25am</h5>
+                <h5>Second Pass</h5>
+                <h6>10:00am - 12:30pm</h6>
               </div>
               <div class="activity">
-                <h5>Intro to Something</h4>
-                <h6>11:30am - 12:30pm</h5>
-              </div>
-              <div class="activity">
-                <h5>Lunch</h4>
-                <h6>12:30pm - 1:30pm</h5>
-              </div>
-              <div class="activity">
-                <h5>Intro to Something</h4>
-                <h6>1:30pm - 5:00pm</h5>
+                <h5><a href="#">Portfolio Site</a></h5>
+                <h6>1:30pm - 5:00pm</h6>
               </div>
           </div>
         </div>
       </div>
 
-      <div class="week" id="week1">
+      <div class="week" id="week2">
         <h2>Week 2</h2>
         <div class="content">
           <div class="day">
             <h3>Monday</h3>
-            <h4>Ferbruary, 19th</h4>
+            <h4>February 26th</h4>
             <div class="activity">
-              <h5>Morning Exercise</h4>
-              <h6>9:00am - 9:45am</h5>
+              <h5>Lightning Talks</h5>
+              <h6>9:00am - 9:45am</h6>
             </div>
             <div class="activity">
-              <h5>Intro to Something</h4>
-              <h6>10:05am - 11:25am</h5>
+              <h5>CSS Basics</h5>
+              <h6>10:00am - 12:30pm</h6>
             </div>
             <div class="activity">
-              <h5>Intro to Something</h4>
-              <h6>11:30am - 12:30pm</h5>
-            </div>
-            <div class="activity">
-              <h5>Lunch</h4>
-              <h6>12:30pm - 1:30pm</h5>
-            </div>
-            <div class="activity">
-              <h5>Intro to Something</h4>
-              <h6>1:30pm - 5:00pm</h5>
+              <h5>Dolphin Cat Lab</h5>
+              <h6>1:30pm - 5:00pm</h6>
             </div>
           </div>
           <div class="day">
             <h3>Tuesday</h3>
-            <h4>Ferbruary, 19th</h4>
-              <div class="activity">
-                <h5>Morning Exercise</h4>
-                <h6>9:00am - 9:45am</h5>
-              </div>
-              <div class="activity">
-                <h5>Intro to Something</h4>
-                <h6>10:05am - 11:25am</h5>
-              </div>
-              <div class="activity">
-                <h5>Intro to Something</h4>
-                <h6>11:30am - 12:30pm</h5>
-              </div>
-              <div class="activity">
-                <h5>Lunch</h4>
-                <h6>12:30pm - 1:30pm</h5>
-              </div>
-              <div class="activity">
-                <h5>Intro to Something</h4>
-                <h6>1:30pm - 5:00pm</h5>
-              </div>
+            <h4>February 27th</h4>
+            <div class="activity">
+              <h5>Pseudocode</h5>
+              <h6>9:00am - 9:45am</h6>
+            </div>
+            <div class="activity">
+              <h5>Layout and Box Model</h5>
+              <h6>10:00am - 12:30pm</h6>
+            </div>
+            <div class="activity">
+              <h5>Monument Landing Page: Part 2</h5>
+              <h6>1:30pm - 5:00pm</h6>
+            </div>
           </div>
           <div class="day">
             <h3>Wednesday</h3>
-            <h4>Ferbruary, 20th</h4>
-              <div class="activity">
-                <h5>Morning Exercise</h4>
-                <h6>9:00am - 9:45am</h5>
-              </div>
-              <div class="activity">
-                <h5>Intro to Something</h4>
-                <h6>10:05am - 11:25am</h5>
-              </div>
-              <div class="activity">
-                <h5>Intro to Something</h4>
-                <h6>11:30am - 12:30pm</h5>
-              </div>
-              <div class="activity">
-                <h5>Lunch</h4>
-                <h6>12:30pm - 1:30pm</h5>
-              </div>
-              <div class="activity">
-                <h5>Intro to Something</h4>
-                <h6>1:30pm - 3:00pm</h5>
-              </div>
-              <div class="activity">
-                <h5>Intro to Something</h4>
-                <h6>3:00pm - 5:00pm</h5>
-              </div>
+            <h4>February 28th</h4>
+            <div class="activity">
+              <h5>Journal/Office Hours</h5>
+              <h6>9:00am - 9:45am</h6>
+            </div>
+            <div class="activity">
+              <h5>Navigation, Floats, and Clears</h5>
+              <h6>10:00am - 12:30pm</h6>
+            </div>
+            <div class="activity">
+              <h5>Monument Landing Page: Part 3</h5>
+              <h6>1:30pm - 5:00pm</h6>
+            </div>
           </div>
           <div class="day">
             <h3>Thursday</h3>
-            <h4>Ferbruary, 21st</h4>
-              <div class="activity">
-                <h5>Morning Exercise</h4>
-                <h6>9:00am - 9:45am</h5>
-              </div>
-              <div class="activity">
-                <h5>Intro to Something</h4>
-                <h6>10:05am - 11:25am</h5>
-              </div>
-              <div class="activity">
-                <h5>Intro to Something</h4>
-                <h6>11:30am - 12:30pm</h5>
-              </div>
-              <div class="activity">
-                <h5>Lunch</h4>
-                <h6>12:30pm - 1:30pm</h5>
-              </div>
-              <div class="activity">
-                <h5>Intro to Something</h4>
-                <h6>1:30pm - 3:00pm</h5>
-              </div>
-              <div class="activity">
-                <h5>Intro to Something</h4>
-                <h6>3:00pm - 5:00pm</h5>
-              </div>
+            <h4>March 1st</h4>
+            <div class="activity">
+              <h5>Basics of Peer Review</h5>
+              <h6>9:00am - 9:45am</h6>
+            </div>
+            <div class="activity">
+              <h5>Intro to Javascript</h5>
+              <h6>10:00am - 12:30pm</h6>
+            </div>
+            <div class="activity">
+              <h5>Javascript Data Types Lab</h5>
+              <h6>1:30pm - 5:00pm</h6>
+            </div>
           </div>
           <div class="day">
             <h3>Friday</h3>
-            <h4>Ferbruary, 22nd</h4>
-              <div class="activity">
-                <h5>Morning Exercise</h4>
-                <h6>9:00am - 9:45am</h5>
-              </div>
-              <div class="activity">
-                <h5>Intro to Something</h4>
-                <h6>10:05am - 11:25am</h5>
-              </div>
-              <div class="activity">
-                <h5>Intro to Something</h4>
-                <h6>11:30am - 12:30pm</h5>
-              </div>
-              <div class="activity">
-                <h5>Lunch</h4>
-                <h6>12:30pm - 1:30pm</h5>
-              </div>
-              <div class="activity">
-                <h5>Intro to Something</h4>
-                <h6>1:30pm - 5:00pm</h5>
-              </div>
+            <h4>March 2nd</h4>
+            <div class="activity">
+              <h5>Week 2 Diagnostic</h5>
+              <h6>9:00am - 9:45am</h6>
+            </div>
+            <div class="activity">
+              <h5>Second Pass</h5>
+              <h6>10:00am - 12:30pm</h6>
+            </div>
+            <div class="activity">
+              <h5>Trio of CSS Labs</h5>
+              <h6>1:30pm - 5:00pm</h6>
+            </div>
           </div>
         </div>
       </div>
 
+      <div class="week" id="week3">
+        <h2>Week 3</h2>
+        <div class="content">
+          <div class="day">
+            <h3>Monday</h3>
+            <h4>March 5th</h4>
+            <div class="activity">
+              <h5>Daily Topics: Control Flow, Arrays, and Loops</h5>
+              <h6>9:00am - 5:00pm</h6>
+            </div>
+          </div>
+          <div class="day">
+            <h3>Tuesday</h3>
+            <h4>March 6th</h4>
+            <div class="activity">
+              <h5>Daily Topics: Functions and Scope</h5>
+              <h6>9:00am - 5:00pm</h6>
+            </div>
+          </div>
+          <div class="day">
+            <h3>Wednesday</h3>
+            <h4>March 7th</h4>
+            <div class="activity">
+              <h5>Daily Topics: Objects, Methods, and JSON</h5>
+              <h6>9:00am - 5:00pm</h6>
+            </div>
+          </div>
+          <div class="day">
+            <h3>Thursday</h3>
+            <h4>March 8th</h4>
+            <div class="activity">
+              <h5>Daily Topics: the DOM</h5>
+              <h6>9:00am - 5:00pm</h6>
+            </div>
+          </div>
+          <div class="day">
+            <h3>Friday</h3>
+            <h4>March 9th</h4>
+            <div class="activity">
+              <h5>Daily Topics: Week Review</h5>
+              <h6>9:00am - 9:45am</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="week" id="week4">
+        <h2>Week 4</h2>
+        <div class="content">
+          <div class="day">
+            <h3>Monday</h3>
+            <h4>March 12th</h4>
+            <div class="activity">
+              <h5>Daily Topics: Intro to jQuery</h5>
+              <h6>9:00am - 5:00pm</h6>
+            </div>
+          </div>
+          <div class="day">
+            <h3>Tuesday</h3>
+            <h4>March 13th</h4>
+            <div class="activity">
+              <h5>Daily Topics: AJAX Giphy</h5>
+              <h6>9:00am - 5:00pm</h6>
+            </div>
+          </div>
+          <div class="day">
+            <h3>Wednesday</h3>
+            <h4>March 14th</h4>
+            <div class="activity">
+              <h5>AJAX API Mini-Project</h5>
+              <h6>9:00am - 5:00pm</h6>
+            </div>
+          </div>
+          <div class="day">
+            <h3>Thursday</h3>
+            <h4>March 15th</h4>
+            <div class="activity">
+              <h5>Daily Topics: Planning for Project 1</h5>
+              <h6>9:00am - 5:00pm</h6>
+            </div>
+          </div>
+          <div class="day">
+            <h3>Friday</h3>
+            <h4>March 16th</h4>
+            <div class="activity">
+              <h5>Daily Topics: GitHub Pages and Basic Deployment</h5>
+              <h6>9:00am - 5:00pm</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="week" id="week5">
+        <h2>Week 5</h2>
+        <div class="content">
+          <div class="day">
+            <h3>Monday</h3>
+            <h4>March 19th</h4>
+            <div class="activity important">
+              <h5>Project 1</h5>
+              <h6>9:00am - 5:00pm</h6>
+            </div>
+          </div>
+          <div class="day">
+            <h3>Tuesday</h3>
+            <h4>March 20th</h4>
+            <div class="activity important">
+              <h5>Project 1</h5>
+              <h6>9:00am - 5:00pm</h6>
+            </div>
+          </div>
+          <div class="day">
+            <h3>Wednesday</h3>
+            <h4>March 21st</h4>
+            <div class="activity important">
+              <h5>Project 1</h5>
+              <h6>9:00am - 5:00pm</h6>
+            </div>
+          </div>
+          <div class="day">
+            <h3>Thursday</h3>
+            <h4>March 22nd</h4>
+            <div class="activity important">
+              <h5>Project 1</h5>
+              <h6>9:00am - 5:00pm</h6>
+            </div>
+          </div>
+          <div class="day">
+            <h3>Friday</h3>
+            <h4>March 23rd</h4>
+            <div class="activity important">
+              <h5>Project 1 Demos</h5>
+              <h6>9:00am - 5:00pm</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="week" id="week6">
+        <h2>Week 6</h2>
+        <div class="content">
+          <div class="day">
+            <h3>Monday</h3>
+            <h4>March 26th</h4>
+            <div class="activity">
+              <h5>Daily Topics: Start of Unit 2</h5>
+              <h6>9:00am - 5:00pm</h6>
+            </div>
+            <div class="activity important">
+              <h5>BE2 Credential</h5>
+              <h6>1:30pm - 5:00pm</h6>
+            </div>
+          </div>
+          <div class="day">
+            <h3>Tuesday</h3>
+            <h4>March 27th</h4>
+            <div class="activity">
+              <h5>Daily Topics: Intro to Node</h5>
+              <h6>9:00am - 5:00pm</h6>
+            </div>
+          </div>
+          <div class="day">
+            <h3>Wednesday</h3>
+            <h4>March 28th</h4>
+            <div class="activity">
+              <h5>Daily Topics: Object Oriented Programming</h5>
+              <h6>9:00am - 5:00pm</h6>
+            </div>
+          </div>
+          <div class="day">
+            <h3>Thursday</h3>
+            <h4>March 29th</h4>
+            <div class="activity">
+              <h5>Daily Topics: Web Application Security</h5>
+              <h6>9:00am - 5:00pm</h6>
+            </div>
+          </div>
+          <div class="day">
+            <h3>Friday</h3>
+            <h4>March 30th</h4>
+            <div class="activity">
+              <h5>Daily Topics: Week Review</h5>
+              <h6>9:00am - 9:45am</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="week" id="week7">
+        <h2>Week 7</h2>
+        <div class="content">
+          <div class="day">
+            <h3>Monday</h3>
+            <h4>April 2nd</h4>
+            <div class="activity">
+              <h5>Daily Topics: Intro to Express</h5>
+              <h6>9:00am - 5:00pm</h6>
+            </div>
+          </div>
+          <div class="day">
+            <h3>Tuesday</h3>
+            <h4>April 3rd</h4>
+            <div class="activity">
+              <h5>Daily Topics: Basics of CRUD</h5>
+              <h6>9:00am - 5:00pm</h6>
+            </div>
+          </div>
+          <div class="day">
+            <h3>Wednesday</h3>
+            <h4>April 4th</h4>
+            <div class="activity">
+              <h5>Daily Topics: HTML Forms</h5>
+              <h6>9:00am - 5:00pm</h6>
+            </div>
+          </div>
+          <div class="day">
+            <h3>Thursday</h3>
+            <h4>April 5th</h4>
+            <div class="activity">
+              <h5>Daily Topics: All Day Lab</h5>
+              <h6>9:00am - 5:00pm</h6>
+            </div>
+          </div>
+          <div class="day">
+            <h3>Friday</h3>
+            <h4>April 6th</h4>
+            <div class="activity">
+              <h5>Daily Topics: Week Review</h5>
+              <h6>9:00am - 5:00pm</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="week" id="week8">
+        <h2>Week 8</h2>
+        <div class="content">
+          <div class="day">
+            <h3>Monday</h3>
+            <h4>April 9th</h4>
+            <div class="activity">
+              <h5>Daily Topics: Postgres and SQL</h5>
+              <h6>9:00am - 5:00pm</h6>
+            </div>
+          </div>
+          <div class="day">
+            <h3>Tuesday</h3>
+            <h4>April 20th</h4>
+            <div class="activity">
+              <h5>Daily Topics: Security Risks</h5>
+              <h6>9:00am - 5:00pm</h6>
+            </div>
+          </div>
+          <div class="day">
+            <h3>Wednesday</h3>
+            <h4>April 21st</h4>
+            <div class="activity">
+              <h5>Daily Topics: SQL Joins</h5>
+              <h6>9:00am - 5:00pm</h6>
+            </div>
+          </div>
+          <div class="day">
+            <h3>Thursday</h3>
+            <h4>April 22nd</h4>
+            <div class="activity">
+              <h5>Daily Topics: Sequelize ORM and Postman</h5>
+              <h6>9:00am - 5:00pm</h6>
+            </div>
+          </div>
+          <div class="day">
+            <h3>Friday</h3>
+            <h4>April 23rd</h4>
+            <div class="activity">
+              <h5>Daily Topics: Week Review</h5>
+              <h6>9:00am - 5:00pm</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="week" id="week9">
+        <h2>Week 9</h2>
+        <div class="content">
+          <div class="day">
+            <h3>Monday</h3>
+            <h4>April 16th</h4>
+            <div class="activity">
+              <h5>Daily Topics: Sequelizations Migrations and Validations</h5>
+              <h6>9:00am - 5:00pm</h6>
+            </div>
+          </div>
+          <div class="day">
+            <h3>Tuesday</h3>
+            <h4>April 17th</h4>
+            <div class="activity">
+              <h5>Daily Topics: Security Risks, Part 2</h5>
+              <h6>9:00am - 5:00pm</h6>
+            </div>
+          </div>
+          <div class="day">
+            <h3>Wednesday</h3>
+            <h4>April 18th</h4>
+            <div class="activity">
+              <h5>Daily Topics: All Day Lab</h5>
+              <h6>9:00am - 5:00pm</h6>
+            </div>
+          </div>
+          <div class="day">
+            <h3>Thursday</h3>
+            <h4>April 19th</h4>
+            <div class="activity">
+              <h5>Daily Topics: Request Module and Third Party APIs</h5>
+              <h6>9:00am - 5:00pm</h6>
+            </div>
+          </div>
+          <div class="day">
+            <h3>Friday</h3>
+            <h4>April 20th</h4>
+            <div class="activity">
+              <h5>Daily Topics: Week Review</h5>
+              <h6>9:00am - 5:00pm</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="week" id="week10">
+        <h2>Week 10</h2>
+        <div class="content">
+          <div class="day">
+            <h3>Monday</h3>
+            <h4>April 23rd</h4>
+            <div class="activity">
+              <h5>Daily Topics: JWT Authentication</h5>
+              <h6>9:00am - 5:00pm</h6>
+            </div>
+          </div>
+          <div class="day">
+            <h3>Tuesday</h3>
+            <h4>April 24th</h4>
+            <div class="activity">
+              <h5>Daily Topics: OAuth and Facebook</h5>
+              <h6>9:00am - 5:00pm</h6>
+            </div>
+          </div>
+          <div class="day">
+            <h3>Wednesday</h3>
+            <h4>April 25th</h4>
+            <div class="activity">
+              <h5>Daily Topics: All Day Lab</h5>
+              <h6>9:00am - 5:00pm</h6>
+            </div>
+          </div>
+          <div class="day">
+            <h3>Thursday</h3>
+            <h4>April 26th</h4>
+            <div class="activity">
+              <h5>Daily Topics: All Day Lab</h5>
+              <h6>9:00am - 5:00pm</h6>
+            </div>
+          </div>
+          <div class="day">
+            <h3>Friday</h3>
+            <h4>April 27th</h4>
+            <div class="activity">
+              <h5>Daily Topics: Deployment Review</h5>
+              <h6>9:00am - 9:45am</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="week" id="week11">
+        <h2>Week 11</h2>
+        <div class="content">
+          <div class="day">
+            <h3>Monday</h3>
+            <h4>April 30th</h4>
+            <div class="activity important">
+              <h5>Project 2</h5>
+              <h6>9:00am - 5:00pm</h6>
+            </div>
+          </div>
+          <div class="day">
+            <h3>Tuesday</h3>
+            <h4>May 1st</h4>
+            <div class="activity important">
+              <h5>Project 2</h5>
+              <h6>9:00am - 5:00pm</h6>
+            </div>
+          </div>
+          <div class="day">
+            <h3>Wednesday</h3>
+            <h4>May 2nd</h4>
+            <div class="activity important">
+              <h5>Project 2</h5>
+              <h6>9:00am - 5:00pm</h6>
+            </div>
+          </div>
+          <div class="day">
+            <h3>Thursday</h3>
+            <h4>May 3rd</h4>
+            <div class="activity important">
+              <h5>Project 2</h5>
+              <h6>9:00am - 5:00pm</h6>
+            </div>
+          </div>
+          <div class="day">
+            <h3>Friday</h3>
+            <h4>April 4th</h4>
+            <div class="activity important">
+              <h5>Project 2 Presentations</h5>
+              <h6>9:00am - 9:45am</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="week" id="week12">
+        <h2>Week 12</h2>
+        <div class="content">
+          <div class="day">
+            <h3>Monday</h3>
+            <h4>May 7th</h4>
+            <div class="activity important">
+              <h5>No Class: Columbus Day</h5>
+              <h6>9:00am - 5:00pm</h6>
+            </div>
+          </div>
+          <div class="day">
+            <h3>Tuesday</h3>
+            <h4>May 8th</h4>
+            <div class="activity">
+              <h5>Daily Topics: Data Structures (Big O, Lists, and Link Lists)</h5>
+              <h6>9:00am - 5:00pm</h6>
+            </div>
+          </div>
+          <div class="day">
+            <h3>Wednesday</h3>
+            <h4>May 9th</h4>
+            <div class="activity">
+              <h5>Daily Topics: Data Structures (Maps, Sets, and Sort)</h5>
+              <h6>9:00am - 5:00pm</h6>
+            </div>
+            <div class="activity important">
+              <h5>Lunch and Learn: DOJO Project Review</h5>
+              <h6>12:30pm - 3:00pm</h6>
+            </div>
+          </div>
+          <div class="day">
+            <h3>Thursday</h3>
+            <h4>May 10th</h4>
+            <div class="activity">
+              <h5>Daily Topics: Intro to DevOps</h5>
+              <h6>9:00am - 5:00pm</h6>
+            </div>
+            <div class="activity important">
+              <h5>Capital One Guest Speaker</h5>
+              <h6>1:30pm - 5:00pm</h6>
+            </div>
+          </div>
+          <div class="day">
+            <h3>Friday</h3>
+            <h4>May 11th</h4>
+            <div class="activity">
+              <h5>Daily Topics: DevOps Collaboration and Automation</h5>
+              <h6>9:00am - 9:45am</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="week" id="week13">
+        <h2>Week 13</h2>
+        <div class="content">
+          <div class="day">
+            <h3>Monday</h3>
+            <h4>May 14th</h4>
+            <div class="activity">
+              <h5>Daily Topics: Start of Unit 3, Git Group Work</h5>
+              <h6>9:00am - 5:00pm</h6>
+            </div>
+          </div>
+          <div class="day">
+            <h3>Tuesday</h3>
+            <h4>May 15th</h4>
+            <div class="activity">
+              <h5>Daily Topics: S3 and Lamdas</h5>
+              <h6>9:00am - 5:00pm</h6>
+            </div>
+          </div>
+          <div class="day">
+            <h3>Wednesday</h3>
+            <h4>May 16th</h4>
+            <div class="activity">
+              <h5>Daily Topics: Linux Basics</h5>
+              <h6>9:00am - 5:00pm</h6>
+            </div>
+          </div>
+          <div class="day">
+            <h3>Thursday</h3>
+            <h4>May 17th</h4>
+            <div class="activity tentative">
+              <h5>Daily Topics: OAuth Facebook Code-Along</h5>
+              <h6>9:00am - 5:00pm</h6>
+            </div>
+            <div class="activity important">
+              <h5>Strength Finder</h5>
+              <h6>12:00pm - 2:00pm</h6>
+            </div>
+          </div>
+          <div class="day">
+            <h3>Friday</h3>
+            <h4>May 18th</h4>
+            <div class="activity">
+              <h5>Daily Topics: Week Review</h5>
+              <h6>9:00am - 9:45am</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="week" id="week14">
+        <h2>Week 14</h2>
+        <div class="content">
+          <div class="day">
+            <h3>Monday</h3>
+            <h4>May 21st</h4>
+            <div class="activity">
+              <h5>Daily Topics: Intro to Angular</h5>
+              <h6>9:00am - 5:00pm</h6>
+            </div>
+          </div>
+          <div class="day">
+            <h3>Tuesday</h3>
+            <h4>May 22nd</h4>
+            <div class="activity">
+              <h5>Daily Topics: Angular States and Routing</h5>
+              <h6>9:00am - 5:00pm</h6>
+            </div>
+          </div>
+          <div class="day">
+            <h3>Wednesday</h3>
+            <h4>May 23rd</h4>
+            <div class="activity">
+              <h5>Daily Topics: Angular Observables</h5>
+              <h6>9:00am - 5:00pm</h6>
+            </div>
+          </div>
+          <div class="day">
+            <h3>Thursday</h3>
+            <h4>May 24th</h4>
+            <div class="activity">
+              <h5>Daily Topics: Angular Testing and Jasmine</h5>
+              <h6>9:00am - 5:00pm</h6>
+            </div>
+          </div>
+          <div class="day">
+            <h3>Friday</h3>
+            <h4>May 25th</h4>
+            <div class="activity">
+              <h5>Daily Topics: Week Review</h5>
+              <h6>9:00am - 9:45am</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="week" id="week15">
+        <h2>Week 15</h2>
+        <div class="content">
+          <div class="day">
+            <h3>Monday</h3>
+            <h4>May 28th</h4>
+            <div class="activity important">
+              <h5>No Class: Memorial Day</h5>
+              <h6>9:00am - 5:00pm</h6>
+            </div>
+          </div>
+          <div class="day">
+            <h3>Tuesday</h3>
+            <h4>May 29th</h4>
+            <div class="activity">
+              <h5>Daily Topics: All Day Lab</h5>
+              <h6>9:00am - 5:00pm</h6>
+            </div>
+            <div class="activity imporant">
+              <h5>Cap One Guest Speaker</h5>
+              <h6>1:30pm - 3:00pm</h6>
+            </div>
+          </div>
+          <div class="day">
+            <h3>Wednesday</h3>
+            <h4>May 30th</h4>
+            <div class="activity">
+              <h5>Daily Topics: Review</h5>
+              <h6>9:00am - 5:00pm</h6>
+            </div>
+            <div class="activity important">
+              <h5>BE2 Retake</h5>
+              <h6>1:30pm - 5:00pm</h6>
+            </div>
+          </div>
+          <div class="day">
+            <h3>Thursday</h3>
+            <h4>May 31st</h4>
+            <div class="activity">
+              <h5>Daily Topics: Project 3</h5>
+              <h6>9:00am - 5:00pm</h6>
+            </div>
+            <div class="activity important">
+              <h5>CODA Breakfast at HQ</h5>
+              <h6>9:00am - 11:30am</h6>
+            </div>
+          </div>
+          <div class="day">
+            <h3>Friday</h3>
+            <h4>June 1st</h4>
+            <div class="activity">
+              <h5>Daily Topics: Security Risks Review</h5>
+              <h6>9:00am - 9:45am</h6>
+            </div>
+            <div class="activity important">
+              <h5>DOJO Kickoff</h5>
+              <h6>11:30am - 1:30pm</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="week" id="week16">
+        <h2>Week 16</h2>
+        <div class="content">
+          <div class="day">
+            <h3>Monday</h3>
+            <h4>June 4th</h4>
+            <div class="activity important">
+              <h5>Project 3</h5>
+              <h6>9:00am - 5:00pm</h6>
+            </div>
+          </div>
+          <div class="day">
+            <h3>Tuesday</h3>
+            <h4>June 5th</h4>
+            <div class="activity important">
+              <h5>Project 3</h5>
+              <h6>9:00am - 5:00pm</h6>
+            </div>
+          </div>
+          <div class="day">
+            <h3>Wednesday</h3>
+            <h4>June 6th</h4>
+            <div class="activity important">
+              <h5>Project 3</h5>
+              <h6>9:00am - 5:00pm</h6>
+            </div>
+          </div>
+          <div class="day">
+            <h3>Thursday</h3>
+            <h4>June 7th</h4>
+            <div class="activity important">
+              <h5>Project 3</h5>
+              <h6>9:00am - 5:00pm</h6>
+            </div>
+          </div>
+          <div class="day">
+            <h3>Friday</h3>
+            <h4>June 8th</h4>
+            <div class="activity important">
+              <h5>Project 3 Demos</h5>
+              <h6>9:00am - 5:00pm</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="week" id="week17">
+        <h2>Week 17</h2>
+        <div class="content">
+          <div class="day">
+            <h3>Monday</h3>
+            <h4>June 11th</h4>
+            <div class="activity">
+              <h5>Daily Topics: Angular Exercises with Code Bases</h5>
+              <h6>9:00am - 5:00pm</h6>
+            </div>
+          </div>
+          <div class="day">
+            <h3>Tuesday</h3>
+            <h4>June 12th</h4>
+            <div class="activity tentative">
+              <h5>Daily Topics: No Class?</h5>
+              <h6>9:00am - 5:00pm</h6>
+            </div>
+          </div>
+          <div class="day">
+            <h3>Wednesday</h3>
+            <h4>June 13th</h4>
+            <div class="activity tentative">
+              <h5>Daily Topics: No Class?</h5>
+              <h6>9:00am - 5:00pm</h6>
+            </div>
+          </div>
+          <div class="day">
+            <h3>Thursday</h3>
+            <h4>June 14th</h4>
+            <div class="activity">
+              <h5>Daily Topics: Socket.io</h5>
+              <h6>9:00am - 5:00pm</h6>
+            </div>
+            <div class="activity important">
+              <h5>Cap One Guest Speaker</h5>
+              <h6>1:30pm - 3:00pm</h6>
+            </div>
+          </div>
+          <div class="day">
+            <h3>Friday</h3>
+            <h4>June 15th</h4>
+            <div class="activity">
+              <h5>Daily Topics: LoDash/AWS RDS</h5>
+              <h6>9:00am - 9:45am</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="week" id="week18">
+        <h2>Week 18</h2>
+        <div class="content">
+          <div class="day">
+            <h3>Monday</h3>
+            <h4>June 18th</h4>
+            <div class="activity">
+              <h5>Daily Topics: Intro to React, Props, and State</h5>
+              <h6>9:00am - 5:00pm</h6>
+            </div>
+          </div>
+          <div class="day">
+            <h3>Tuesday</h3>
+            <h4>June 19th</h4>
+            <div class="activity">
+              <h5>Daily Topics: React Lifecycle and Unidirectional Flow</h5>
+              <h6>9:00am - 5:00pm</h6>
+            </div>
+            <div class="activity important">
+              <h5>FE1 Retake</h5>
+              <h6>1:30pm - 5:00pm</h6>
+            </div>
+          </div>
+          <div class="day">
+            <h3>Wednesday</h3>
+            <h4>June 20th</h4>
+            <div class="activity">
+              <h5>Daily Topics: React Router, APIs, and Fetch</h5>
+              <h6>9:00am - 5:00pm</h6>
+            </div>
+          </div>
+          <div class="day">
+            <h3>Thursday</h3>
+            <h4>June 21st</h4>
+            <div class="activity">
+              <h5>Daily Topics: Code Along</h5>
+              <h6>9:00am - 5:00pm</h6>
+            </div>
+            <div class="activity important">
+              <h5>FE2 Retake</h5>
+              <h6>1:30pm - 5:00pm</h6>
+            </div>
+          </div>
+          <div class="day">
+            <h3>Friday</h3>
+            <h4>June 22nd</h4>
+            <div class="activity">
+              <h5>Daily Topics: React Native</h5>
+              <h6>9:00am - 9:45am</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="week" id="week19">
+        <h2>Week 19</h2>
+        <div class="content">
+          <div class="day">
+            <h3>Monday</h3>
+            <h4>June 25th</h4>
+            <div class="activity tentative">
+              <h5>Daily Topics: TBD</h5>
+              <h6>9:00am - 5:00pm</h6>
+            </div>
+          </div>
+          <div class="day">
+            <h3>Tuesday</h3>
+            <h4>June 26th</h4>
+            <div class="activity tentative">
+              <h5>Daily Topics: TBD</h5>
+              <h6>9:00am - 5:00pm</h6>
+            </div>
+          </div>
+          <div class="day">
+            <h3>Wednesday</h3>
+            <h4>June 27th</h4>
+            <div class="activity tentative">
+              <h5>Daily Topics: TBD</h5>
+              <h6>9:00am - 5:00pm</h6>
+            </div>
+          </div>
+          <div class="day">
+            <h3>Thursday</h3>
+            <h4>June 28th</h4>
+            <div class="activity tentative">
+              <h5>Daily Topics: TBD</h5>
+              <h6>9:00am - 5:00pm</h6>
+            </div>
+          </div>
+          <div class="day">
+            <h3>Friday</h3>
+            <h4>June 29th</h4>
+            <div class="activity tentative">
+              <h5>Daily Topics: TBD</h5>
+              <h6>9:00am - 9:45am</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="week" id="week20">
+        <h2>Week 20</h2>
+        <div class="content">
+          <div class="day">
+            <h3>Monday</h3>
+            <h4>July 2nd</h4>
+            <div class="activity tentative">
+              <h5>Daily Topics: TBD</h5>
+              <h6>9:00am - 5:00pm</h6>
+            </div>
+          </div>
+          <div class="day">
+            <h3>Tuesday</h3>
+            <h4>July 3rd</h4>
+            <div class="activity tentative">
+              <h5>Daily Topics: TBD</h5>
+              <h6>9:00am - 5:00pm</h6>
+            </div>
+          </div>
+          <div class="day">
+            <h3>Wednesday</h3>
+            <h4>July 4th</h4>
+            <div class="activity tentative">
+              <h5>No Class: Fourth of July</h5>
+              <h6>9:00am - 5:00pm</h6>
+            </div>
+          </div>
+          <div class="day">
+            <h3>Thursday</h3>
+            <h4>July 5th</h4>
+            <div class="activity tentative">
+              <h5>Daily Topics: TBD</h5>
+              <h6>9:00am - 5:00pm</h6>
+            </div>
+          </div>
+          <div class="day">
+            <h3>Friday</h3>
+            <h4>July 6th</h4>
+            <div class="activit tentative">
+              <h5>Daily Topics: TBD</h5>
+              <h6>9:00am - 5:00pm</h6>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
 
     <footer>
       <p>Created by Will Hawkins</p>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script type="text/javascript" src="script.js"></script>
   </body>
 </html>
